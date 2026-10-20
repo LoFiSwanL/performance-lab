@@ -1,0 +1,50 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 768  of event 'cpu-clock'
+# Event count (approx.): 3859296000
+#
+# Children      Self  Command  Shared Object  Symbol                           
+# ........  ........  .......  .............  .................................
+#
+   100.00%   100.00%  lab_O3   lab_O3         [.] transform.constprop.0
+            |
+            ---_start
+               __libc_start_main@@GLIBC_2.34
+               __libc_start_call_main
+               main
+               transform.constprop.0
+
+   100.00%     0.00%  lab_O3   lab_O3         [.] _start
+            |
+            ---_start
+               __libc_start_main@@GLIBC_2.34
+               __libc_start_call_main
+               main
+               transform.constprop.0
+
+   100.00%     0.00%  lab_O3   libc.so.6      [.] __libc_start_main@@GLIBC_2.34
+            |
+            ---__libc_start_main@@GLIBC_2.34
+               __libc_start_call_main
+               main
+               transform.constprop.0
+
+   100.00%     0.00%  lab_O3   libc.so.6      [.] __libc_start_call_main
+            |
+            ---__libc_start_call_main
+               main
+               transform.constprop.0
+
+   100.00%     0.00%  lab_O3   lab_O3         [.] main
+            |
+            ---main
+               transform.constprop.0
+
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

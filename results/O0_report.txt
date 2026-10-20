@@ -1,0 +1,61 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 5K of event 'cpu-clock'
+# Event count (approx.): 29944719875
+#
+# Children      Self  Command  Shared Object      Symbol                           
+# ........  ........  .......  .................  .................................
+#
+   100.00%     0.00%  lab_O0   lab_O0             [.] _start
+            |
+            ---_start
+               __libc_start_main@@GLIBC_2.34
+               __libc_start_call_main
+               main
+               transform
+
+   100.00%     0.00%  lab_O0   libc.so.6          [.] __libc_start_main@@GLIBC_2.34
+            |
+            ---__libc_start_main@@GLIBC_2.34
+               __libc_start_call_main
+               main
+               transform
+
+   100.00%     0.00%  lab_O0   libc.so.6          [.] __libc_start_call_main
+            |
+            ---__libc_start_call_main
+               main
+               transform
+
+   100.00%     0.00%  lab_O0   lab_O0             [.] main
+            |
+            ---main
+               transform
+
+   100.00%    99.98%  lab_O0   lab_O0             [.] transform
+            |          
+             --99.98%--_start
+                       __libc_start_main@@GLIBC_2.34
+                       __libc_start_call_main
+                       main
+                       transform
+
+     0.02%     0.02%  lab_O0   [kernel.kallsyms]  [k] 0xffffb8b9e2132f40
+     0.02%     0.00%  lab_O0   [kernel.kallsyms]  [k] 0xffffb8b9e1e41638
+     0.02%     0.00%  lab_O0   [kernel.kallsyms]  [k] 0xffffb8b9e3129968
+     0.02%     0.00%  lab_O0   [kernel.kallsyms]  [k] 0xffffb8b9e3128804
+     0.02%     0.00%  lab_O0   [kernel.kallsyms]  [k] 0xffffb8b9e1e6eb58
+     0.02%     0.00%  lab_O0   [kernel.kallsyms]  [k] 0xffffb8b9e1e6e844
+     0.02%     0.00%  lab_O0   [kernel.kallsyms]  [k] 0xffffb8b9e1e6e418
+     0.02%     0.00%  lab_O0   [kernel.kallsyms]  [k] 0xffffb8b9e20f2808
+     0.02%     0.00%  lab_O0   [kernel.kallsyms]  [k] 0xffffb8b9e20f1cdc
+     0.02%     0.00%  lab_O0   [kernel.kallsyms]  [k] 0xffffb8b9e1e6edc4
+     0.02%     0.00%  lab_O0   [kernel.kallsyms]  [k] 0xffffb8b9e2135a8c
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

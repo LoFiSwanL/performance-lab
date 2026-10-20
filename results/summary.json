@@ -1,0 +1,182 @@
+{
+  "O0": {
+    "time_s": [
+      29.82,
+      30.35,
+      29.84
+    ],
+    "median_time_s": 29.84,
+    "user_s": [
+      29.72,
+      29.81,
+      29.77
+    ],
+    "rss_KiB": [
+      9040,
+      9036,
+      9040
+    ],
+    "perf_medians": {
+      "cycles": 59193738810,
+      "instructions": 251770338338,
+      "L1-dcache-loads": 109115705712,
+      "L1-dcache-load-misses": 127148740,
+      "LLC-loads": 788310606,
+      "LLC-load-misses": 674988367,
+      "branch-misses": 195484
+    },
+    "energy_runs": [
+      {
+        "command": [
+          "./build/lab_O0",
+          "8000"
+        ],
+        "returncode": 0,
+        "rail": "VDD_IN",
+        "sensor": "/sys/class/hwmon/hwmon1",
+        "interval_s": 0.05,
+        "elapsed_s": 29.84470315300001,
+        "module_energy_J": 252.1055538185469,
+        "mean_module_power_W": 8.44724615038448,
+        "idle_before_W": 6.1085048830397595,
+        "idle_after_W": 6.312599119186604,
+        "baseline_W": 6.210552001113182,
+        "incremental_energy_estimate_J": 66.75347292905377,
+        "limitation": "Module rail, not wall power. Incremental energy is an estimate; includes background/DVFS effects. Polling adds up to about 50 ms."
+      },
+      {
+        "command": [
+          "./build/lab_O0",
+          "8000"
+        ],
+        "returncode": 0,
+        "rail": "VDD_IN",
+        "sensor": "/sys/class/hwmon/hwmon1",
+        "interval_s": 0.05,
+        "elapsed_s": 29.872776316,
+        "module_energy_J": 251.84595825305178,
+        "mean_module_power_W": 8.430617750053647,
+        "idle_before_W": 5.711911950918177,
+        "idle_after_W": 7.029962687692926,
+        "baseline_W": 6.370937319305551,
+        "incremental_energy_estimate_J": 61.528372790180384,
+        "limitation": "Module rail, not wall power. Incremental energy is an estimate; includes background/DVFS effects. Polling adds up to about 50 ms."
+      },
+      {
+        "command": [
+          "./build/lab_O0",
+          "8000"
+        ],
+        "returncode": 0,
+        "rail": "VDD_IN",
+        "sensor": "/sys/class/hwmon/hwmon1",
+        "interval_s": 0.05,
+        "elapsed_s": 29.913405449000038,
+        "module_energy_J": 250.6394299467281,
+        "mean_module_power_W": 8.378833041060746,
+        "idle_before_W": 5.7309734643745704,
+        "idle_after_W": 7.1253552055824345,
+        "baseline_W": 6.4281643349785025,
+        "incremental_energy_estimate_J": 58.35114390171444,
+        "limitation": "Module rail, not wall power. Incremental energy is an estimate; includes background/DVFS effects. Polling adds up to about 50 ms."
+      }
+    ],
+    "energy_medians": {
+      "elapsed_s": 29.872776316,
+      "module_energy_J": 251.84595825305178,
+      "mean_module_power_W": 8.430617750053647,
+      "baseline_W": 6.370937319305551,
+      "incremental_energy_estimate_J": 61.528372790180384
+    }
+  },
+  "O3": {
+    "time_s": [
+      3.87,
+      3.85,
+      4.04
+    ],
+    "median_time_s": 3.87,
+    "user_s": [
+      3.78,
+      3.84,
+      4.03
+    ],
+    "rss_KiB": [
+      9036,
+      9032,
+      9036
+    ],
+    "perf_medians": {
+      "cycles": 7611726968,
+      "instructions": 18893180393,
+      "L1-dcache-loads": 4199876169,
+      "L1-dcache-load-misses": 65061011,
+      "LLC-loads": 521416215,
+      "LLC-load-misses": 423443315,
+      "branch-misses": 40587
+    },
+    "energy_runs": [
+      {
+        "command": [
+          "./build/lab_O3",
+          "8000"
+        ],
+        "returncode": 0,
+        "rail": "VDD_IN",
+        "sensor": "/sys/class/hwmon/hwmon1",
+        "interval_s": 0.05,
+        "elapsed_s": 3.9224800299999742,
+        "module_energy_J": 35.14269791758743,
+        "mean_module_power_W": 8.959305757788053,
+        "idle_before_W": 6.204605796077994,
+        "idle_after_W": 6.741606242362541,
+        "baseline_W": 6.473106019220268,
+        "incremental_energy_estimate_J": 9.752068825123299,
+        "limitation": "Module rail, not wall power. Incremental energy is an estimate; includes background/DVFS effects. Polling adds up to about 50 ms."
+      },
+      {
+        "command": [
+          "./build/lab_O3",
+          "8000"
+        ],
+        "returncode": 0,
+        "rail": "VDD_IN",
+        "sensor": "/sys/class/hwmon/hwmon1",
+        "interval_s": 0.05,
+        "elapsed_s": 3.968705708000016,
+        "module_energy_J": 35.68360306269805,
+        "mean_module_power_W": 8.991244422776914,
+        "idle_before_W": 6.027237527853181,
+        "idle_after_W": 7.062728806977192,
+        "baseline_W": 6.544983167415186,
+        "incremental_energy_estimate_J": 9.708491007413375,
+        "limitation": "Module rail, not wall power. Incremental energy is an estimate; includes background/DVFS effects. Polling adds up to about 50 ms."
+      },
+      {
+        "command": [
+          "./build/lab_O3",
+          "8000"
+        ],
+        "returncode": 0,
+        "rail": "VDD_IN",
+        "sensor": "/sys/class/hwmon/hwmon1",
+        "interval_s": 0.05,
+        "elapsed_s": 3.8794071210000993,
+        "module_energy_J": 34.78948813295208,
+        "mean_module_power_W": 8.967733225169587,
+        "idle_before_W": 5.7925919302027635,
+        "idle_after_W": 7.5643188570025535,
+        "baseline_W": 6.6784553936026585,
+        "incremental_energy_estimate_J": 8.881040721728404,
+        "limitation": "Module rail, not wall power. Incremental energy is an estimate; includes background/DVFS effects. Polling adds up to about 50 ms."
+      }
+    ],
+    "energy_medians": {
+      "elapsed_s": 3.9224800299999742,
+      "module_energy_J": 35.14269791758743,
+      "mean_module_power_W": 8.967733225169587,
+      "baseline_W": 6.544983167415186,
+      "incremental_energy_estimate_J": 9.708491007413375
+    }
+  }
+}

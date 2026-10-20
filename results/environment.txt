@@ -1,0 +1,51 @@
+Linux 5.15.148-tegra
+Architecture:                       aarch64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+CPU(s):                             8
+On-line CPU(s) list:                0-7
+Vendor ID:                          ARM
+Model name:                         Cortex-A78AE
+Model:                              1
+Thread(s) per core:                 1
+Core(s) per cluster:                4
+Socket(s):                          -
+Cluster(s):                         2
+Stepping:                           r0p1
+CPU max MHz:                        1984.0000
+CPU min MHz:                        115.2000
+BogoMIPS:                           62.50
+Flags:                              fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp uscat ilrcpc flagm paca pacg
+L1d cache:                          512 KiB (8 instances)
+L1i cache:                          512 KiB (8 instances)
+L2 cache:                           2 MiB (8 instances)
+L3 cache:                           4 MiB (2 instances)
+NUMA node(s):                       1
+NUMA node0 CPU(s):                  0-7
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Not affected
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:           Mitigation; __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; CSV2, but not BHB
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+NV Power Mode: MAXN_SUPER
+0
+perf version 5.15.216
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+ina3221
+VDD_IN
+65aaa94f5076a2e8ab31011d8635eecbd9035fd93f330c2c83f6c549c1d9759a  src/main.c
+51468c3dc7180dc72249fb78aa63dc2eb5f97e8983eccce32b2605ac6702ed44  build/lab_O0
+2795a84e42d7e1afca3ea920780e5b11b51cc7a3974a628df930a8d3cd05808e  build/lab_O3
+41fee1f99f9276008b7cd112fca19dc3ea84ac32

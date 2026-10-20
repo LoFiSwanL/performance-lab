@@ -1,0 +1,18 @@
+{
+  "command": [
+    "./build/lab_O0",
+    "8000"
+  ],
+  "returncode": 0,
+  "rail": "VDD_IN",
+  "sensor": "/sys/class/hwmon/hwmon1",
+  "interval_s": 0.05,
+  "elapsed_s": 29.872776316,
+  "module_energy_J": 251.84595825305178,
+  "mean_module_power_W": 8.430617750053647,
+  "idle_before_W": 5.711911950918177,
+  "idle_after_W": 7.029962687692926,
+  "baseline_W": 6.370937319305551,
+  "incremental_energy_estimate_J": 61.528372790180384,
+  "limitation": "Module rail, not wall power. Incremental energy is an estimate; includes background/DVFS effects. Polling adds up to about 50 ms."
+}

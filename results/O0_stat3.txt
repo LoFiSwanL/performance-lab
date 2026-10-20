@@ -1,0 +1,24 @@
+# started on Tue Oct 20 13:03:11 2026
+
+
+ Performance counter stats for './build/lab_O0 8000':
+
+          29889.93 msec task-clock                #    1.000 CPUs utilized          
+               126      context-switches          #    4.215 /sec                   
+                 4      cpu-migrations            #    0.134 /sec                   
+              1078      page-faults               #   36.066 /sec                   
+       59193738810      cycles                    #    1.980 GHz                    
+      251763189384      instructions              #    4.25  insn per cycle         
+   <not supported>      branches                                                    
+            195484      branch-misses                                               
+      109114070003      L1-dcache-loads           #    3.651 G/sec                  
+         125434360      L1-dcache-load-misses     #    0.11% of all L1-dcache accesses
+         787265146      LLC-loads                 #   26.339 M/sec                  
+         674988367      LLC-load-misses           #   85.74% of all LL-cache accesses
+
+      29.901014639 seconds time elapsed
+
+      29.814777000 seconds user
+       0.003992000 seconds sys
+
+
